@@ -4,7 +4,7 @@ function Bio(){
     return(
         <Fade direction='up' duration={700} className="m-5 w-5/6 md:w-2/5 sm:w-5/6 shadow-lg mt-20  p-10 rounded-xl" cascade>
             <div>
-                <font className="under-line px-5 py-4 text-3xl">Bio</font>
+                <h3 className="under-line px-5 py-4 text-3xl">Bio</h3>
                 <h3 className="mt-10">
                     I'm Web Developer from California. I code and design websites worldwide. Mauris varius tellus vitae tristique sagittis. Sed aliquet, est nec auctor aliquet, orci ex vestibulum ex, non pharetra lacus erat ac nulla.
 
