@@ -3,7 +3,6 @@ import { Fade } from "react-awesome-reveal";
 function Education(){
     return(
         <Fade direction="up" duration={700} className="m-5 w-5/6 md:w-2/5 sm:w-5/6 shadow-lg mt-20  p-10 rounded-xl" cascade>
-            <a>
             <div className="">
                 <h3 className="under-line px-5 py-4 text-3xl">Education</h3>
                 <div className="work-experience layout-spacing border-none w-full m-auto sm:ml-0 mt-20 bg-transparent">
@@ -49,7 +48,6 @@ function Education(){
                     </div>
                 </div>
             </div>
-        </a>
         </Fade>
     )
 }
