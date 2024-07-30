@@ -5,7 +5,7 @@ function Services(){
     return(
         <div className="w-5/6 m-auto mb-5">
             <Fade duration = {700} delay={600} direction='up' damping={20} cascade>
-                <h3 className = 'under-line px-5 w-fit py-4 text-3xl mb-20'>Services</h3>
+                <h3 className = 'under-line px-5 w-fit py-4 text-3xl mb-20' style = {{width: 'fit-content'}}>Services</h3>
             </Fade>
 
             <div className="flex flex-wrap justify-center w-full">
