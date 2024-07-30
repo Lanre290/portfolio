@@ -4,7 +4,7 @@ import ServicesTile from "./servicesTile";
 function Services(){
     return(
         <div className="w-5/6 m-auto mb-5">
-            <Fade duration = {700} delay={600} direction='up' damping={20} cascade>
+            <Fade duration = {700} delay={600} direction='up' damping={0.2} cascade>
                 <h3 className = 'under-line px-5 w-fit py-4 text-3xl mb-20' style = {{width: 'fit-content'}}>Services</h3>
             </Fade>
 
