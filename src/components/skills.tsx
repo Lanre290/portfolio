@@ -5,7 +5,7 @@ function Skills(){
     return(
         <Fade direction='up' damping={20} duration={700} className="w-5/6 m-auto rounded-xl shadow-lg p-10 mb-5" cascade>
             <div>
-                <font className="under-line px-5 py-4 text-3xl mb-20">Skills</font>
+                <h3 className="under-line px-5 py-4 text-3xl mb-20">Skills</h3>
 
                 <div className="m-20"></div>
 

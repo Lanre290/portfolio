@@ -22,7 +22,7 @@ function Footer(){
 
             <div className="w-full md:w-2/4 sm:w-5/6 flex flex-col">
                 <div className="w-full flex flex-col">
-                    <font className="text-3xl text-gray-50 w-5/6 md:w-3/5 sm:w-3/5 mb-6 m-auto">Leave a review: </font>
+                    <h3 className="text-3xl text-gray-50 w-5/6 md:w-3/5 sm:w-3/5 mb-6 m-auto">Leave a review: </h3>
                     <input type="text" placeholder="Name" className="bg-transparent border mt-2 w-5/6 md:w-3/5 sm:w-3/5 placeholder-gray-400 rounded-lg m-auto border-gray-50 p-3 text-gray-50" />
                     <input type="text" placeholder="Email" className="bg-transparent border mt-2 w-5/6 md:w-3/5 sm:w-3/5 placeholder-gray-400 rounded-lg m-auto border-gray-50 p-3 text-gray-50" />
                     <textarea  placeholder="Message" className="bg-transparent border mt-2 w-5/6 md:w-3/5 sm:w-3/5 placeholder-gray-400 rounded-lg m-auto border-gray-50 p-3 text-gray-50"></textarea>
