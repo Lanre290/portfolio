@@ -27,7 +27,7 @@ function App() {
         }
       }
     }
-      <div>
+      <div className='overflow-x-hidden'>
         <Styling></Styling>
 
         <Header></Header>
