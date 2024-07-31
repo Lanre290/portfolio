@@ -6,9 +6,9 @@ function Bio(){
             <div>
                 <h3 className="under-line px-5 w-fit py-4 text-3xl" style = {{width: 'fit-content'}}>Bio</h3>
                 <h3 className="mt-10">
-                    I'm Web Developer from California. I code and design websites worldwide. Mauris varius tellus vitae tristique sagittis. Sed aliquet, est nec auctor aliquet, orci ex vestibulum ex, non pharetra lacus erat ac nulla.
+                I'm a web developer based in Lagos, Nigeria, specializing in creating and designing websites for clients worldwide. I have expertise in HTML, CSS, JavaScript, PHP, React, and Node.js. Additionally, I have experience building desktop applications with Python.
 
-                    Sed vulputate, ligula eget mollis auctor, lectus elit feugiat urna, eget euismod turpis lectus sed ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc ut velit finibus, scelerisque sapien vitae, pharetra est. Nunc accumsan ligula vehicula scelerisque vulputate.
+                I blend creativity with technical skills to deliver user-friendly and visually appealing websites. My goal is to bring innovative solutions to my clients' digital needs, ensuring they stand out in a competitive online landscape.
                 </h3>
             </div>
         </Fade>

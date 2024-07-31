@@ -12,11 +12,11 @@ function Footer(){
                     <div className="text-3xl flex items-center justify-center mr-3"><i className="fa fa-phone"></i></div>&nbsp; <div className="mt-2">+234 916-4187-495</div>
                 </div>
                 <div className="flex flex-row mt-10 m-auto">
-                    <a href="" className="footer-social-links"><i className="fa fa-facebook"></i></a>
-                    <a href="" className="footer-social-links"><i className="fa fa-twitter"></i></a>
-                    <a href="" className="footer-social-links"><i className="fa fa-instagram"></i></a>
-                    <a href="" className="footer-social-links"><i className="fa fa-linkedin"></i></a>
-                    <a href="" className="footer-social-links"><i className="fa fa-github"></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=100083136165965" className="footer-social-links"><i className="fa fa-facebook"></i></a>
+                    <a href="https://x.com/lanre2967" className="footer-social-links"><i className="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/lanre_290/" className="footer-social-links"><i className="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ashiru-olanrewaju-219725223" className="footer-social-links"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Lanre290" className="footer-social-links"><i className="fa fa-github"></i></a>
                 </div>
             </div>
 

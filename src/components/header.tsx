@@ -50,19 +50,19 @@ function Header(){
 
                     <div className="flex flex-row mt-5">
                         <Fade direction='up' cascade delay={300} duration={600}>
-                            <a href="" className="social-links"><i className="fa fa-facebook"></i></a>
+                            <a href="https://web.facebook.com/profile.php?id=100083136165965" className="social-links"><i className="fa fa-facebook"></i></a>
                         </Fade>
                         <Fade direction='up' cascade delay={400} duration={600}>
-                            <a href="" className="social-links"><i className="fa fa-twitter"></i></a>
+                            <a href="https://x.com/lanre2967" className="social-links"><i className="fa fa-twitter"></i></a>
                         </Fade>
                         <Fade direction='up' cascade delay={500} duration={600}>
-                            <a href="" className="social-links"><i className="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/lanre_290/" className="social-links"><i className="fa fa-instagram"></i></a>
                         </Fade>
                         <Fade direction='up' cascade delay={600} duration={600}>
-                            <a href="" className="social-links"><i className="fa fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/ashiru-olanrewaju-219725223" className="social-links"><i className="fa fa-linkedin"></i></a>
                         </Fade>
                         <Fade direction='up' cascade delay={700} duration={600}>
-                            <a href="" className="social-links"><i className="fa fa-github"></i></a>
+                            <a href="https://github.com/Lanre290" className="social-links"><i className="fa fa-github"></i></a>
                         </Fade>
                     </div>
                 </div>
