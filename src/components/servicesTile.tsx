@@ -7,7 +7,7 @@ interface info{
 }
 function ServicesTile(data:info){
     return(
-        <Fade direction="up" damping={2} duration={550} className="shadow-lg rounded-xl flex flex-col w-full p-10 px-0 mt-20 cursor-pointer m-5 lg:w-3/12 md:w-2/5 sm:w-2/5">
+        <Fade direction="up" damping={2} fraction={0.1} duration={550} className="shadow-lg rounded-xl flex flex-col w-full p-10 px-0 mt-20 cursor-pointer m-5 lg:w-3/12 md:w-2/5 sm:w-2/5">
             <div>
                 <div className="text-5xl rounded-full flex items-center justify-center text-gray-50 m-auto" style= {{backgroundColor: '#38e819', width: '140px', height: '140px', minWidth: '140px', minHeight: '140px'}}>
                     <i className={data.icon}></i>

@@ -3,13 +3,13 @@ function Footer(){
         <div className="w-full p-3 sm:p-20 md:p-20 py-20 flex flex-col lg:flex-row sm:flex-row md:flex-row justify-between" style={{backgroundColor: '#38e819'}}>
             <div className="w-5/6 md:w-1/4 sm:w-5/6">
                 <div className="flex-row flex text-gray-50 mb-4">
-                    <div className="text-3xl flex items-center justify-center mr-3 ml-2"><i className="fa fa-map-marker"></i></div>&nbsp;<div className="mt-2">Ojo, Lagos State.</div>
+                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3 ml-2"><i className="fa fa-map-marker"></i></div>&nbsp;<div className="mt-2">Ojo, Lagos State.</div>
                 </div>
                 <div className="flex-row flex text-gray-50 mb-4">
-                    <div className="text-3xl flex items-center justify-center mr-3"><i className="fa fa-envelope"></i></div>&nbsp; <div className="mt-2">Lanre2967@gmail.com</div>
+                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3"><i className="fa fa-envelope"></i></div>&nbsp; <div className="mt-2">Lanre2967@gmail.com</div>
                 </div>
                 <div className="flex-row flex text-gray-50 mb-4">
-                    <div className="text-3xl flex items-center justify-center mr-3"><i className="fa fa-phone"></i></div>&nbsp; <div className="mt-2">+234 916-4187-495</div>
+                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3"><i className="fa fa-phone"></i></div>&nbsp; <div className="mt-2">+234 916-4187-495</div>
                 </div>
                 <div className="flex flex-row mt-10 m-auto">
                     <a target='_blank' href="https://web.facebook.com/profile.php?id=100083136165965" className="footer-social-links"><i className="fa fa-facebook"></i></a>
