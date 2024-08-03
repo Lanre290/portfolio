@@ -12,7 +12,7 @@ function Prog(data:prog){
         //         <h3 className="text-gray-50 ml-5 mr-20">{data.value}%</h3>
         //     </div>
         // </div>
-        <div className="p-5 w-full sm:w-1/2 md:1/4 flex flex-col justify-center items-center">
+        <div className="p-3 sm:p-5 md:p-5 lg:p-5 w-1/2 sm:w-1/2 md:1/3 lg:w-1/3 flex flex-col justify-center items-center">
             <img src={data.icon} alt="" width={60} height={60}/>
             <h3 className="text-lime-600 sm:text-2xl md:text-3xl lg:text-3xl">{data.text}</h3>
         </div>

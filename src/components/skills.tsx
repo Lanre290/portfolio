@@ -9,7 +9,7 @@ import reactIcon from '../assets/img/science.png';
 
 function Skills(){
     return(
-        <Fade direction='up' damping={0.2} duration={700} fraction={0.1} className="w-5/6 m-auto rounded-xl shadow-lg p-10 mb-5" cascade>
+        <Fade direction='up' damping={0.2} duration={700} fraction={0.1} className="w-5/6 m-auto rounded-xl shadow-lg p-5 md:p-10 lg:p-10 mb-5" cascade>
             <div>
                 <h3 className="under-line px-5 w-fit py-4 text-3xl mb-5" style = {{width: 'fit-content'}}>Skills</h3>
 
