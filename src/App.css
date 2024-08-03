@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;#
+@tailwind utilities;
 
 
-body{
+*{
   scroll-behavior: smooth;
   transition: 0.4s;
 }
@@ -25,28 +25,21 @@ body{
 }
 
 .header-links{
-  position: relative;
+  height: 37px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
 }
 
-.header-links:hover ::after{
-  width: 0%;
-  transition: 0.5s;
-}
-.header-links:hover ::after{
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 75%;
-  background: #38e819;
-  border-radius: 50%;
-  bottom: -6px;
-  right: 7px;
-  transform: rotate(-2deg);
+.header-links-cont{
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(3px);
+  transition: 0.1s;
 }
 
-.current-link{
-  color: #38e819;
-}
 
 .cv-button{
   background: #38e819;
@@ -78,8 +71,7 @@ body{
   padding: 10px;
   opacity: 1;
   height: 45px;
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;
+  margin-bottom: 4px;
 }
 .name_tag::after {
   content: '';
@@ -171,6 +163,10 @@ body{
   color: #fafafa;
 }
 
+.header-links:hover{
+  color: #38e819;
+}
+
 @keyframes show{
   from{
     opacity: 0;
@@ -220,5 +216,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .header-links:hover ::after{
+    width: 0%;
+    transition: 0.5s;
+  }
+  .header-links:hover ::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: #38e819;
+    border-radius: 50%;
+    bottom: -6px;
+    right: 7px;
+    transform: rotate(-2deg);
+  }
+
+  .header-links-cont{
+    position: fixed;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(3px);
   }
 }

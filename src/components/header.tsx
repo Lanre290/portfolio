@@ -1,22 +1,43 @@
+import { useRef, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { Typewriter } from 'react-simple-typewriter';
 
 function Header(){
+    const [isShown, setIsShown] = useState(screen.width > 640 ? 'flex': 'none');
+    let currentScrollPosition = 0;
+
+    if(screen.width < 641){
+        window.onscrollend = () => {
+            let newScrollPosition = window.scrollY;
+            if(newScrollPosition < currentScrollPosition){
+                setIsShown('none');
+            }
+            else{
+                setIsShown('flex');
+            }
+            currentScrollPosition = newScrollPosition;
+        }
+    }
+
+    function scrollToHome(){
+        window.scrollBy({behavior: 'smooth', 'top': -99999999999999, 'left': 0});
+    }
+
     return(
         <div className= "w-screen h-screen relative sm:h-screen home-bg">
             <div className="absolute top-0 right-0 bottom-0 left-0 w-screen h-full flex flex-col justify-between" style={{background: 'linear-gradient(90deg, #000000ee, #00000033)'}}>
                 <div className="flex flex-col md:flex-row sm:flex-row justify-between">
-                    <h3 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl text-gray-50 font-serif m-4 sm:m-10 md:m-10 lg:m-15 mb-3 logo relative w-min">Sheriff</h3>
+                    <h3 className="text-3xl sm:text-5xl md:text-5xl lg:text-7xl text-gray-50 font-serif m-4 sm:m-10 md:m-10 lg:m-15 mb-3 logo relative w-min">TechX</h3>
 
-                    <div className = "flex flex-row m-auto sm:m-10 md:m-10">
-                        <a href = "#home" className = "cursor-pointer text-2xl mr-5 header-links current-link">
-                            <i ></i>&nbsp;Home
+                    <div className = "flex flex-row header-links-cont shadow-lg rounded-3xl p-6 backdrop-blur-3xl bg-opacity-5 bg-gray-50 m-auto sm:m-10 md:m-10 z-50" style = {{'display': isShown}}>
+                        <a href = "#home" className = "cursor-pointer text-5xl mr-5 header-links text-gray-400" onClick={scrollToHome}>
+                            <i className='fa fa-home'></i>
                         </a>
-                        <a href = "#edu" className = "cursor-pointer text-2xl text-gray-50 mr-5 header-links">
-                            <i ></i>&nbsp;Education
+                        <a href = "#services" className = "cursor-pointer text-5xl text-gray-400 mr-5 header-links">
+                            <i className='fa fa-bookmark'></i>
                         </a>
-                        <a href = "#home" className = "cursor-pointer text-2xl text-gray-50 mr-5 header-links">
-                            <i ></i>&nbsp;Contact me
+                        <a href = "#contact" className = "cursor-pointer text-5xl text-gray-400 mr-5 header-links">
+                            <i className='fa fa-volume-control-phone'></i>
                         </a>
                     </div>
                 </div>
@@ -32,11 +53,12 @@ function Header(){
                         words={['Ashiru Sheriff', 'A Student', 'A Developer', 'A Freelancer','A Problem solver']}
                         loop
                         cursor
-                        cursorStyle=''
+                        cursorStyle='|'
                         typeSpeed={70}
                         deleteSpeed={50}
                         delaySpeed={2000}
                     />
+                    &nbsp;
 
                     </span>
                     <div className="bio md:w-5/6 sm:w-full lg:3/6 text-2xl md:text-2l sm:text-2xl text-gray-50 mt-5">

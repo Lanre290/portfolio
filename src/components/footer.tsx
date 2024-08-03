@@ -1,15 +1,15 @@
 function Footer(){
     return(
-        <div className="w-full p-3 sm:p-20 md:p-20 py-20 flex flex-col lg:flex-row sm:flex-row md:flex-row justify-between" style={{backgroundColor: '#38e819'}}>
+        <div id="contact" className="w-full p-3 sm:p-20 md:p-20 py-20 flex flex-col lg:flex-row sm:flex-row md:flex-row justify-between" style={{backgroundColor: '#38e819'}}>
             <div className="w-5/6 md:w-1/4 sm:w-5/6">
                 <div className="flex-row flex text-gray-50 mb-4">
-                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3 ml-2"><i className="fa fa-map-marker"></i></div>&nbsp;<div className="mt-2">Ojo, Lagos State.</div>
+                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3 ml-2"><i className="fa fa-map-marker"></i></div>&nbsp;<a href="https://www.google.com/maps?q=6.45986751613623, 3.3009555399506376" target="_blank" className="mt-2">Ojo, Lagos state.</a>
                 </div>
                 <div className="flex-row flex text-gray-50 mb-4">
-                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3"><i className="fa fa-envelope"></i></div>&nbsp; <div className="mt-2">Lanre2967@gmail.com</div>
+                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3"><i className="fa fa-envelope"></i></div>&nbsp; <a href="mailto:lanre2967@gmail.com" className="mt-2">Lanre2967@gmail.com</a>
                 </div>
                 <div className="flex-row flex text-gray-50 mb-4">
-                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3"><i className="fa fa-phone"></i></div>&nbsp; <div className="mt-2">+234 916-4187-495</div>
+                    <div className="text-2xl sm:text-3xl md:text-3xl lg:text-5xl flex items-center justify-center mr-3"><i className="fa fa-phone"></i></div>&nbsp; <a href="tel:+2349164187495" className="mt-2">+234 916-4187-495</a>
                 </div>
                 <div className="flex flex-row mt-10 m-auto">
                     <a target='_blank' href="https://web.facebook.com/profile.php?id=100083136165965" className="footer-social-links"><i className="fa fa-facebook"></i></a>

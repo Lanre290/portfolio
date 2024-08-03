@@ -1,20 +1,26 @@
 import { Fade } from "react-awesome-reveal";
 import Prog from "./skill-prog";
+import htmlIcon from '../assets/img/html-5.png';
+import jsIcon from '../assets/img/js.png'
+import phpIcon from '../assets/img/php.png';
+import pyIcon from '../assets/img/python.png';
+import nodeIcon from '../assets/img/node-js.png';
+import reactIcon from '../assets/img/science.png';
 
 function Skills(){
     return(
         <Fade direction='up' damping={0.2} duration={700} fraction={0.1} className="w-5/6 m-auto rounded-xl shadow-lg p-10 mb-5" cascade>
             <div>
-                <h3 className="under-line px-5 w-fit py-4 text-3xl mb-20" style = {{width: 'fit-content'}}>Skills</h3>
+                <h3 className="under-line px-5 w-fit py-4 text-3xl mb-5" style = {{width: 'fit-content'}}>Skills</h3>
 
-                <div className="m-20"></div>
-
-                <Prog text="HTML/CSS" value = {99.9}></Prog>
-                <Prog text="Javascript(Typescript)" value = {85}></Prog>
-                <Prog text="PHP" value = {80}></Prog>
-                <Prog text="Python" value = {83}></Prog>
-                <Prog text="Node js" value = {55}></Prog>
-                <Prog text="React js" value = {78}></Prog>
+                <div className="flex-wrap flex justify-center">
+                    <Prog text="HTML/CSS" icon={htmlIcon} alt='html icon'></Prog>
+                    <Prog text="Javascript(Typescript)" icon={jsIcon} alt='js icon'></Prog>
+                    <Prog text="PHP" icon={phpIcon} alt='php icon'></Prog>
+                    <Prog text="Python" icon={pyIcon} alt='python icon'></Prog>
+                    <Prog text="Node js" icon={nodeIcon} alt='node-js icon'></Prog>
+                    <Prog text="React js" icon={reactIcon} alt='react-js icon'></Prog>
+                </div>
             </div>
         </Fade>
     )
