@@ -1,10 +1,8 @@
 import { Fade } from "react-awesome-reveal";
 import ServicesTile from "./servicesTile";
-import { useState } from "react";
 
 function Services(){
     
-    const [ServicesTop, setServicesTop] = useState(0);
 
 
     return(

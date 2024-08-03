@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { Typewriter } from 'react-simple-typewriter';
 
