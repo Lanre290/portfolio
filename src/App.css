@@ -5,7 +5,7 @@
 
 *{
   scroll-behavior: smooth;
-  transition: 0.4s;
+  transition-duration: 0.4s;
 }
 .logo{
   position: relative;
@@ -59,10 +59,6 @@
   margin-left: 12px;
   transition: 0.5s;
 }
-.my-work-btn:hover{
-  background: #38e819;
-  color: #fafafa;
-}
 
 .name_tag{
   position: relative;
@@ -95,14 +91,10 @@
   color: #38e819;
   margin: 10px;
   font-size: 25px;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.social-links:hover{
-  background: #38e819;
-  color: #fafafa;
 }
 
 .footer-social-links{
@@ -121,10 +113,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.footer-social-links:hover{
-  background: #fafafa;
-  color: #38e819;
 }
 
 .under-line{
@@ -163,8 +151,22 @@
   color: #fafafa;
 }
 
-.header-links:hover{
-  color: #38e819;
+@media(min-width: 768px){
+  .header-links:hover{
+    color: #38e819;
+  }
+  .footer-social-links:hover{
+    background: #fafafa;
+    color: #38e819;
+  }
+  .my-work-btn:hover{
+    background: #38e819;
+    color: #fafafa;
+  }
+  .social-links:hover{
+    background: #38e819;
+    color: #fafafa;
+  }
 }
 
 @keyframes show{
@@ -195,11 +197,13 @@
     align-items: center;
     justify-content: center;
   }
-  .social-links:hover{
+  .social-links:active{
     background: #38e819;
     color: #fafafa;
   }
-  
+  .header-links:active{
+    color: #38e819;
+  }
   .footer-social-links{
     height: 40px;
     width: 40px;
@@ -217,21 +221,6 @@
     align-items: center;
     justify-content: center;
   }
-  .header-links:hover ::after{
-    width: 0%;
-    transition: 0.5s;
-  }
-  .header-links:hover ::after{
-    position: absolute;
-    content: "";
-    height: 2px;
-    width: 0%;
-    background: #38e819;
-    border-radius: 50%;
-    bottom: -6px;
-    right: 7px;
-    transform: rotate(-2deg);
-  }
 
   .header-links-cont{
     position: fixed;
@@ -239,5 +228,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     backdrop-filter: blur(3px);
+  }
+  .my-work-btn:active{
+    background: #38e819;
+    color: #fafafa;
+  }
+  .social-links:active{
+    background: #38e819;
+    color: #fafafa;
   }
 }
